@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity
 
         AdView mAdView = (AdView)findViewById(R.id.adView);
         AdRequest request = new AdRequest.Builder()
-                //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
-              //  .addTestDevice("D08181698F2997930C1CC48E56BD2C25")  // My Nexus5 test phone
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
+                 //.addTestDevice("your phone")  // My Nexus5 test phone
                 .build();
         mAdView.loadAd(request);
 
