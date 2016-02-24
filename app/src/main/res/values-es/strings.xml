@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rabanoid</string>
+
+    <string name="menu_refresh">Actualizar</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_sat">Sábado</string>
+
+
+
+    <string name="text_info"><![CDATA[
+
+    <p>Rabanoid muestra todos los trenes y autobuses posibles desde las tres
+    paradas principales: Córdoba, Rabanales y Alcolea.</p>
+    <p>Muestra el tren o el autobús, si es una línea especial y, opcionalmente, muestra el horario de los sábados.</p>
+
+    ]]></string>
+
+    <string name="text_about"><![CDATA[
+
+    <p style=\"text-align:justify\"><b>Rabanoid</b>. Una app simple para consultar los horarios
+    de transportes disponibles para el campus de Rabanales, de una forma simple y rápida.</p>
+    <p>Versión <b>1.0</b></p>
+    <p>Programada por <b>Robert Krovs</b></p>
+
+    ]]></string>
+
+    <string name="toast_updating">Actualizando</string>
+    <string name="toast_nointernet">Sin conexión a internet</string>
+
+</resources>

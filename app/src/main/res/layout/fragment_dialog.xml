@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/dialog_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et urna non eros fringilla placerat. Cras tincidunt aliquam est, ut fringilla massa consequat sit amet. Donec ut fermentum lacus. Nullam malesuada arcu quis quam auctor, mollis luctus arcu consectetur. Nulla justo magna, auctor nec ornare vel, feugiat non arcu. Curabitur tincidunt est et est malesuada, et interdum sem luctus. Nunc vehicula maximus urna in rhoncus. Nulla id pulvinar mauris."
+        android:padding="16dp"
+        android:lineSpacingExtra="3dp"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:elegantTextHeight="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/btndis"
+        android:layout_gravity="end"
+        android:background="#00ffffff"
+        android:textColor="@color/accent" />
+</LinearLayout>

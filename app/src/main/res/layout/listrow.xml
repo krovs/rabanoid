@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center_vertical|center_horizontal">
+
+
+
+    <TextView
+        android:id="@+id/rowtime"
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+
+        android:gravity="left|center"
+        android:textSize="16sp"
+
+        android:text="07:56"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/rowtransp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left|center"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/rowtime"
+        android:text="Cercanias Renfe"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+</RelativeLayout>

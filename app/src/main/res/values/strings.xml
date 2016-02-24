@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rabanoid</string>
+
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_about">About</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_sat">Saturday</string>
+
+    <string name="banner_ad_unit_id">"banner ad unit"</string>
+
+    <string name="text_info"><![CDATA[
+
+    <p>Rabanoid shows all the available trains and buses from the three main
+    locations: Cordoba, Rabanales and Alcolea.</p>
+    <p>It shows both the train and the bus, if it is a special line and, optionally, it shows the saturday schedule.</p>
+
+    ]]></string>
+
+    <string name="text_about"><![CDATA[
+
+    <p style=\"text-align:justify\"><b>Rabanoid</b>. A simple app to check the available transport schedule to the campus of Rabanales
+    in a quick and easy way.</p>
+    <p>Version <b>1.0</b></p>
+    <p>Programmed by <b>Robert Krovs</b></p>
+
+    ]]></string>
+
+    <string name="toast_updating">Updating</string>
+    <string name="toast_nointernet">No internet connection</string>
+
+</resources>
